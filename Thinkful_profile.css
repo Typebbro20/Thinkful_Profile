@@ -1,6 +1,8 @@
+/* formats entire background page */
 html {
     background-color: #37392E;
     font-family: 'New Tegomin', serif;
+    font-size: medium;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -13,16 +15,19 @@ header {
     background-color: blanchedalmond;
 }
 h1 {
-    color: #37392E;
+    color: blanchedalmond;
     font-family: 'New Tegomin', serif;
 
 }
-
+/* specific class */
 .slogan {
     color:#721817;
 }
 h2 {
     color: #37392e;
+}
+h3 {
+    color: blanchedalmond;
 }
 p {
     color: #37392E;
@@ -31,22 +36,25 @@ p {
     padding-right: 20rem;
     padding-left: 20rem;
 }
+li {
+    list-style: none;
+}
 img {
     border: 2px solid #17255A;
     max-width: 300px;
-    max-height: 500px;
+    max-height: 400px;
 }
 div {
+    align-items: center;
     background-color: blanchedalmond;
     margin: 2rem auto 1rem auto;
     padding: 1rem auto 1rem auto;
 }
+/* always include border */
 main {
     border: 2px solid #18206F;
     background-color: #17255A;
 }
-
-
 footer {
     border: 2px solid #18206F;
     color: blanchedalmond;
